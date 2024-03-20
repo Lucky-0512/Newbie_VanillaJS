@@ -1,0 +1,115 @@
+#head{
+    font-family: poppins;
+}
+
+.container{
+    
+    width: 500px;
+    height: 400px;
+    border: none;
+    position: relative;
+    top: 20px;
+    margin-left: 25px;
+    box-shadow: none;
+    border-radius: 5px;
+    display: none;
+}
+
+@font-face {
+    font-family: Spice;
+    src: url(Spice.otf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Popins.otf);
+}
+
+#arrows{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    position: relative;
+    top:30px;
+    left:115px;
+    
+
+}
+
+#arr_left:hover{
+    cursor: pointer;
+
+}
+
+#arr_right{
+    cursor: pointer;
+}
+
+.profile_pic{
+    height: 120px;
+    width: 120px;
+    border: none;
+    position: relative;
+    left:185px;
+    top: 20px;
+    border-radius:75px;
+    box-shadow: 0 0 10px lightslategray;
+    overflow: hidden;
+    background-color: white;
+}
+
+.title{
+    height: 60px;
+    width: 300px;
+    border: none;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: poppins;
+}
+
+.in_here{
+    height: 130px;
+    width: 440px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    border:none;
+}
+
+
+.master{
+    width: 530px;
+    height: 480px;
+    border: none;
+    margin-left: 430px;
+    box-shadow: 0 0 15px lightslategray;
+    border-radius: 15px;
+    background-color: lightcyan;
+    
+
+}
+
+.display{
+
+    display: block;
+    transition: .8s ease;
+    
+    
+}
+
+
+.pics{
+    height: 120px;
+    width: 120px;
+}
+
+.in_here{
+    width: 450px;
+    font-size: x-large;
+    font-family: Spice;
+}

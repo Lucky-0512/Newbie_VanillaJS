@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="back">
+    <div id="source">
+        <h2 id="title">COLOR FLIPPER</h2>
+        <div id="type">
+            <button id="simple">Simple</button>
+            <button id="Hex">Hex</button>
+        </div>
+    
+    
+        <button id="R"> RESET</button>
+        <button id="Main">F L I P</button>
+        
+
+        
+    
+    </div>
+
+
+
+    <!-------------------------------------END OF COLOR FLIPPER--------------------------------------->
+
+    <div id="calculator">
+        <div id="panel"></div>
+        <div id="butt">
+            <div class="rows">
+                <div class="keys"><button onclick="show('%')" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">%</button></div>
+                <div class="keys"><button onclick="show('**')" style="padding: 5px 9px;background-color: goldenrod;cursor: pointer;">Pow</button></div>
+                <div class="keys"><button onclick="abs()"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">C</button></div>
+                
+
+            </div>
+            <div class="rows">
+                <div class="keys"><button onclick="show('1')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">1</button></div>
+                <div class="keys"><button onclick="show('2')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">2</button></div>
+                <div class="keys"><button onclick="show('3')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">3</button></div>
+
+            </div>
+            <div class="rows">
+                <div class="keys"><button onclick="show('4')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">4</button></div>
+                <div class="keys"><button onclick="show('5')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">5</button></div>
+                <div class="keys"><button onclick="show('6')"  style="padding: 5px 15px; background-color: goldenrod;cursor: pointer;">6</button></div>
+
+            </div>
+            <div class="rows">
+                <div class="keys"><button onclick="show('7')"  style="padding: 5px 15px; background-color: goldenrod;cursor: pointer;">7</button></div>
+                <div class="keys"><button onclick="show('8')"  style="padding: 5px 15px; background-color: goldenrod;cursor: pointer;">8</button></div>
+                <div class="keys"><button onclick="show('9')"  style="padding: 5px 15px; background-color: goldenrod;cursor: pointer;" >9</button></div>
+
+            </div>
+            <div class="rows">
+                <div class="keys"><button onclick="show('0')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">0</button></div>
+                <div class="keys"><button onclick="show('.')"  style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;"><b>.</b></button></div>
+                <div class="keys"><button onclick="back()" style="padding: 5px 5px;background-color: goldenrod;cursor: pointer;">back</button></div>
+
+            </div>
+
+            <div class="column">
+                <div class="keys"><button onclick="show('/')" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">/</button></div>
+                <div class="keys"><button onclick="show('*')" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">x</button></div>
+                <div class="keys"><button onclick="show('-')" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">-</button></div>
+                <div class="keys"><button onclick="show('+')" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">+</button></div>
+                <div class="keys"><button onclick="ans()" style="padding: 5px 15px;background-color: goldenrod;cursor: pointer;">=</button></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!---------------------------------------------END OF THE CALCUALTOR PRGRAM---------------------------------------->
+
+
+    <div id="counter">
+        <h1 id="t_counter">Counter</h1>
+        <h1 id="number">0</h1>
+        <div id="buttons">
+            <button class="dec_inc_reset" id="dec">Decrease</button>
+            <button class="dec_inc_reset" id="reset">Reset</button>
+            <button class="dec_inc_reset" id="inc">Increase</button>
+        </div>
+    </div>
+
+<!----------------------------------End of the counter program-------------------------------------->
+<div id="game_window">
+    <div id="game_title">ROCK - PAPER - SCISSOR</div>
+    <div id="top_score">
+        <div id="score_u" class="score">
+            <u>your Score</u>
+            <h3 id="score_user">-</h3>
+        </div>
+        <div id="attempts_n" class="score">
+            <u>Attempts Left</u>
+            <h3 id="attempts_no">-</h3>
+        </div>
+        <div id="score_comp" class="score">
+            <u>Computer score</u>
+            <h3 id="score_PC">-</h3>
+            
+        </div>
+    </div>
+    <div id="attempts">
+        <div id="attempt_user"><h2 id="user">-</h2></div>
+        <div id="emoji"><h2 id="emo">-</h2></div>
+        <div id="attempt_computer"><h2 id="comp">-</h2></div>
+    </div>
+
+    <div id="base_choice">
+        <div class="hand"><img  id="rock" src="rock.png" style="height: 80px;width: 80px;"></div>
+        <div class="hand" id="paper"><img src="paper.png" style="height: 80px;width: 80px;"></div>
+        <div class="hand" id="scissor"><img src="Scissors.png" style="height: 80px;width: 80px;"></div>
+    </div>
+    
+
+</div>
+
+<div id="close_box">
+    <h1 id="close_window"></h1>
+    <br>
+    <div id="again" style="width: 50px; height: 50px;">TRY AGAIN</div>
+    <div id="scores"></div>
+</div>
+<!-----------------------------------END OF THE ROCK PAPER AND SCISSOR PROGRAM---------------------------->
+
+
+<div id="faq_accordian">
+    <h1 id="title">FAQs</h1>
+
+    <div class="questions">
+        <div class="Q">
+            <p class="text">Q1. What is Frontend Mentor, and how will it help me?</p>
+            <p class="ans">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Eligendi porro dolore incidunt ratione, nulla fugi erspiciatis tempora
+                 neque adipisci ipsum ea voluptas dolorum amet alias et quidem quia hic doloribus!</p>
+            <img src="icon-plus.svg" class="plus">
+            <img src="icon-minus.svg" class="minus">
+        </div>
+        <div class="Q">
+            <p class="text">Q2. Is Frontend Mentor free?</p>
+            <p class="ans"> Frontend Mentor offers realistic coding challenges to help developers
+                 improve their frontend coding skills with projects in HTML, CSS, and JavaScript.
+                 It's suitable for all levels and ideal for portfolio building.</p>
+            <img src="icon-plus.svg" class="plus">
+            <img src="icon-minus.svg" class="minus">
+        </div>
+        <div class="Q">
+            <p class="text">Q2. Can I use Frontend Mentor projects in my portfolio?</p>
+            <p class="ans">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptatibus ea consectetur? Tenetur voluptates nostrum alias vero molestias
+                 illo, magni maiores, cupiditate nisi est adipisci harum.</p>
+            <img src="icon-plus.svg" class="plus">
+            <img src="icon-minus.svg" class="minus">
+        </div>
+    </div>
+</div>
+
+
+    <script src="index.js">
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,456 @@
+#type{
+    position: relative;
+    left: 25%;
+    top: -40px;
+}
+
+#simple{
+    position: relative;
+    left: 130px;
+    padding: 8px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+#Hex{
+    position: relative;
+    left: 130px;
+    padding: 8px 25px;
+    background-color: white;
+    color: black;
+
+    border: none;
+    border-radius: 3px;
+}
+
+#simple:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+#Hex:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    position: relative;
+    left: 30px;
+    top:10px;
+}
+
+#Main{
+    position: relative;
+    left: 80px;
+    padding: 10px 20px;
+}
+
+#Main:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+#R{
+   margin-left: 10px;
+
+}
+
+#source{
+    border: 3px solid black;
+    width:500px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.dispaly{
+    background-color: white;
+}
+
+/* now writing the CSS for next program - the calculator.*/
+
+#calculator{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#panel{
+    width: 227px;
+    height: 70px;
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 9px;
+    border-radius: 5px;
+    background-color: beige;
+    text-align: right;
+    font-size: 40px;
+    font-family: consolas;
+    font-weight: bold;
+
+}
+
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin-bottom: 8px;
+    height: 33px;
+    width: 175px;
+    border:none;
+}
+
+.keys{
+    width: 50px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+    
+}
+
+.keys:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px beige;
+}
+
+.column{
+    height:202px;
+    width: 50px;
+    border: none;
+    float: right;
+    position: relative;
+    top: -187px;
+    left: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.keys_1{
+    width: 50px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: goldenrod;
+
+    
+    
+}
+
+.keys_1:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px beige;
+}
+
+
+#butt{
+    position: relative;
+    left: -5px;
+}
+
+
+
+/************************************** End of the calculator program ****************************************/
+
+
+#counter{
+    /*display: flex;*/
+    height: 150px;
+    width: 230px;
+    background-color: antiquewhite;
+    text-align: center;
+    position: relative;
+    left: 272px;
+    top: -280px;
+    border-radius: 3px;
+    border: 2px solid brown;
+
+}
+
+
+
+    
+
+#t_counter{
+    position: relative;
+    font-weight: 900;
+    font-size: 25px;
+    top: -10px;
+    left: 11px;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+
+#number{
+    font-size: 40px;
+    left: 13px;
+    position: relative;
+    top: -20px;
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+
+#buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 15px;
+    top: -25px;
+
+}
+
+/*********************************** END OF COUNTER PROGRAM ********************************************/
+
+
+
+#base_choice{
+    display: flex;
+    position: relative;
+    left: 0px;
+    justify-content: space-between;
+    top: 40px;
+}
+
+#close_box{
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    visibility: hidden;
+    background-color: lightpink;
+    position: relative;
+    left: 270px;
+
+    bottom: 570px;
+
+}
+
+
+
+#game_window{
+    position: relative;
+    left: 270px;
+    bottom: 270px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    visibility: visible;
+}
+
+
+
+.hand:hover{
+    cursor: pointer;
+}
+
+#game_title{
+    position: relative;
+    left: 45px;
+    top: 20px;
+    font-weight: 700;
+    font-family:"consolas";
+}
+
+#top_score{
+    display: flex;
+    height: 50px;
+    width:300px;
+    border: none;
+    position: relative;
+    top: 25px;
+    left: -10px;
+
+}
+
+
+.score{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    
+}
+
+#attempts{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 280px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#attempt_user{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+#emoji{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+
+}
+
+#attempt_computer{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+
+#body{
+    background-image: url();
+}
+
+.attempt_user{
+    font-size: 50px;
+}
+
+#again{
+
+}
+
+#scores{
+    height: 20px;
+    
+}
+
+
+/*********************END OF THE ROCK PAPER SCISSOR PROGRAM***********************************/
+
+#faq_accordian{
+    height: 450px;
+    width: 500px;
+    border: none;
+    position: relative;
+    left: 590px;
+    top: -1240px;
+    box-shadow: 0 0 10px lightslategray;
+    border-radius: 3px;
+    background-color: hotpink;
+}
+
+.questions{
+    width:500px;
+    height: 400px;
+    border: none;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    
+}
+
+#title{
+    position: relative;
+    top: 20px;
+}
+
+
+.Q{
+    height: 45px;
+    width: 450px;
+    border: none;
+    background-color: lightpink;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+
+.plus{
+    position: relative;
+    left: 415px;
+    top: -120px;
+}
+
+.plus:hover{
+    cursor: pointer;
+}
+
+
+.minus{
+    position: relative;
+    left: 380px;
+    top: -120px;
+    visibility: hidden;
+}
+
+.minus:hover{
+    cursor:pointer;
+}
+
+
+.do{
+    height: 120px;
+    transition: .8s;
+    overflow: hidden;
+    
+}
+
+
+.ans{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text{
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.pos{
+    visibility: hidden;
+}
+
+.neg{
+    visibility: visible;
+}
